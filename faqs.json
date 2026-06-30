@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is CodeAlpha?",
+    "answer": "CodeAlpha is a software development company offering internship programs in fields like AI, Web Development, Data Science, and more, providing students with real-world project experience."
+  },
+  {
+    "question": "How do I apply for the internship?",
+    "answer": "You can apply for the internship through the official CodeAlpha website by filling out the application form available there."
+  },
+  {
+    "question": "What is the duration of the internship?",
+    "answer": "The internship duration is typically mentioned in your offer letter, and most CodeAlpha internships run for about 4 weeks."
+  },
+  {
+    "question": "How many tasks do I need to complete?",
+    "answer": "You need to complete a minimum of two or three tasks from the given task list to be eligible for the completion certificate."
+  },
+  {
+    "question": "Where do I submit my completed tasks?",
+    "answer": "You should submit your completed tasks using the Submission Form shared in your respective WhatsApp group."
+  },
+  {
+    "question": "Do I need to upload my code to GitHub?",
+    "answer": "Yes, you need to upload your complete source code to GitHub in a repository named CodeAlpha_ProjectName."
+  },
+  {
+    "question": "Do I need to post about my internship on LinkedIn?",
+    "answer": "Yes, you should share your internship status on LinkedIn and tag @CodeAlpha, and also post a video explanation of your project with the GitHub repo link."
+  },
+  {
+    "question": "Will I get a certificate after completing the internship?",
+    "answer": "Yes, you will receive a QR-verified Completion Certificate and a Unique ID Certificate after successfully completing the minimum required tasks."
+  },
+  {
+    "question": "What happens if I submit only one task?",
+    "answer": "Submitting only one task is considered incomplete, and no certificate will be issued in that case."
+  },
+  {
+    "question": "Can I get a Letter of Recommendation?",
+    "answer": "Yes, a Letter of Recommendation may be provided based on your performance during the internship."
+  },
+  {
+    "question": "How can I contact CodeAlpha for support?",
+    "answer": "You can contact CodeAlpha via WhatsApp at +91 9336576683 or email at services@codealpha.tech or services.codealpha@gmail.com."
+  },
+  {
+    "question": "Is the internship paid or unpaid?",
+    "answer": "Most CodeAlpha internships are unpaid but provide certificates, mentorship, recommendation letters, and placement support instead."
+  },
+  {
+    "question": "What tools do I need for the AI internship tasks?",
+    "answer": "Depending on the task, you may need Python, libraries like NLTK, SpaCy, scikit-learn, OpenCV, TensorFlow or PyTorch, and tools like Jupyter Notebook or VS Code."
+  },
+  {
+    "question": "Will I get job opportunities after the internship?",
+    "answer": "Yes, CodeAlpha offers job opportunities and placement support to interns who perform well during the program."
+  }
+]
