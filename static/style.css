@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eef1f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 420px;
+  max-width: 95vw;
+  height: 640px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-header {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+}
+
+.chat-header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.chat-header p {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #f7f9fc;
+}
+
+.message {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.message.bot {
+  background: #e4e9f2;
+  color: #222;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+.message.user {
+  background: #4b6cb7;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+}
+
+.suggestion-btn {
+  background: #eef1f5;
+  border: 1px solid #ccd5e0;
+  border-radius: 14px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.suggestion-btn:hover {
+  background: #dbe3ee;
+}
+
+.chat-input-row {
+  display: flex;
+  border-top: 1px solid #eee;
+}
+
+#user-input {
+  flex: 1;
+  border: none;
+  padding: 14px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.chat-input-row button {
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.chat-input-row button:hover {
+  background: #3a559c;
+}

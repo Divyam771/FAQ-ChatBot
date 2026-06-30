@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FAQ Chatbot — CodeAlpha</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h1>🤖 FAQ Chatbot</h1>
+      <p>Ask me anything about the CodeAlpha internship</p>
+    </div>
+
+    <div class="chat-window" id="chat-window">
+      <div class="message bot">
+        Hi! I'm your FAQ assistant. Ask me about the internship, tasks, certificates, or submission process.
+      </div>
+    </div>
+
+    <div class="suggestions">
+      {% for q in sample_questions %}
+        <button class="suggestion-btn" onclick="sendSuggested('{{ q }}')">{{ q }}</button>
+      {% endfor %}
+    </div>
+
+    <form id="chat-form" class="chat-input-row">
+      <input type="text" id="user-input" placeholder="Type your question..." autocomplete="off" required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
